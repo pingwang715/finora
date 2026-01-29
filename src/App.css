@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: hsl(230, 30%, 85%);
+}
+
+.app-container {
+  width: 90%;
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.user-header {
+  margin: 2rem;
+}
+
+.stock-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: bold;
+}
+
+.stock-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.stock-list li {
+  background: #f3f3f3;
+  margin: 0.5rem 0;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:black;
+}
+.remove-btn {
+  background: #ff5c5c;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.25rem 0.4rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.remove-btn:hover {
+  background: #d93c3c;
+  border-color:#d93c3c;
+}
+
+.add-btn {
+  background: white;
+  color: black;
+  font-weight: bold;;
+}
+
+.add-btn:hover {
+  background: #3cd976;
+  border-color:#3cd976;
+}
+
+h1, h3, p {
+  color: #DFDFDF;
+}
